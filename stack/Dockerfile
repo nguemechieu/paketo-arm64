@@ -1,5 +1,5 @@
 ## For the Base image (both build & run)
-FROM ubuntu:focal as base
+FROM ubuntu:latest as base
 
 ARG STACK_ID
 
